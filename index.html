@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>E-Commerce Product Page</title>
+		<link
+			rel="stylesheet"
+			href="style.css" />
+		<link
+			rel="shortcut icon"
+			href="img/favicon-32x32.png"
+			type="image/x-icon" />
+	</head>
+	<body>
+		<header class="header">
+			<ul class="nav">
+				<li
+					class="mobile-icon"
+					id="mobile-icon">
+					<img
+						src="img/icon-menu.svg"
+						alt="Menu Icon"
+						class="mobile" />
+				</li>
+				<li>
+					<img
+						src="img/logo.svg"
+						alt="Sneakers Logo" />
+				</li>
+				<li>
+					<ul>
+						<li
+							class="nav-link"
+							id="nav-link">
+							<img
+								src="img/icon-close.svg"
+								alt="Close Icon"
+								id="mobile-icon"
+								class="mobile mobile-icon" />
+
+							<ul class="nav-links">
+								<li class="cp">Collections</li>
+								<li class="cp">Men</li>
+								<li class="cp">Women</li>
+								<li class="cp">About</li>
+								<li class="cp">Contact</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="users">
+				<ul class="cart">
+					<li><p class="dark">Cart</p></li>
+					<li></li>
+					<li class="drop-main full hide">
+						<img
+							src="img/image-product-1-thumbnail.jpg"
+							alt="Product Image" />
+						<div class="drop-text">
+							<p>Fall Limited Edition Sneakers</p>
+							<p>
+								$125.00 &times; <pan class="quantity"> 3</pan>
+								<span class="dark arithemetic">$375.00</span>
+							</p>
+						</div>
+						<img
+							src="img/icon-delete.svg"
+							alt="Delete Image"
+							class="clear cp" />
+					</li>
+					<li class="btn cp clear full hide"><p>Checkout</p></li>
+					<li class="empty">Your cart is empty</li>
+				</ul>
+				<li class="carts">
+					<img
+						src="img/icon-cart.svg"
+						alt="Cart Image"
+						class="cp" />
+					<div class="cart-no btn quantity"></div>
+				</li>
+				<li class="avatar cp">
+					<img
+						src="img/image-avatar.png"
+						alt="Avatar Image" />
+				</li>
+			</ul>
+		</header>
+
+		<main class="main">
+			<div class="slider">
+				<div class="slides">
+					<!-- radio buttons start -->
+					<input
+						type="radio"
+						name="radio-btn"
+						class="radio"
+						id="radio1" />
+					<input
+						type="radio"
+						name="radio-btn"
+						class="radio"
+						id="radio2" />
+					<input
+						type="radio"
+						name="radio-btn"
+						class="radio"
+						id="radio3" />
+					<input
+						type="radio"
+						name="radio-btn"
+						class="radio"
+						id="radio4" />
+					<div class="slide first">
+						<img
+							src="img/image-product-1.jpg"
+							alt="" />
+					</div>
+					<div class="slide">
+						<img
+							src="img/image-product-2.jpg"
+							alt="" />
+					</div>
+					<div class="slide">
+						<img
+							src="img/image-product-3.jpg"
+							alt="" />
+					</div>
+					<div class="slide">
+						<img
+							src="img/image-product-4.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="navigation-manual">
+					<label
+						for="radio1"
+						class="manual-btn cp">
+						<img
+							src="img/image-product-1-thumbnail.jpg"
+							alt="" />
+						<p></p>
+					</label>
+					<label
+						for="radio2"
+						class="manual-btn cp">
+						<img
+							src="img/image-product-2-thumbnail.jpg"
+							alt="" />
+						<p></p>
+					</label>
+					<label
+						for="radio3"
+						class="manual-btn cp">
+						<img
+							src="img/image-product-3-thumbnail.jpg"
+							alt="" />
+						<p></p>
+					</label>
+					<label
+						for="radio4"
+						class="manual-btn cp">
+						<img
+							src="img/image-product-4-thumbnail.jpg"
+							alt="" />
+						<p></p>
+					</label>
+				</div>
+			</div>
+
+			<secton class="text-section">
+				<p class="orange">Sneaker Company</p>
+				<h1 class="dark">Fall Limited Edition Sneakers</h1>
+				<p>
+					These low-profile sneakers are your perfect casual wear companion.
+					Featuring a durable rubber outer sole, they’ll withstand everything
+					the weather can offer.
+				</p>
+				<div class="prices">
+					<div class="price">
+						<h2 class="dark">$125.00</h2>
+						<p class="orange">50%</p>
+					</div>
+					<p>$250.00</p>
+				</div>
+				<article class="text-btn">
+					<p>
+						<img
+							src="img/icon-plus.svg"
+							alt="Plus Sign"
+							class="cp math-sign"
+							id="plus" />
+						<span
+							class="dark"
+							id="quantity"
+							>3</span
+						>
+						<img
+							src="img/icon-minus.svg"
+							alt="Minus Sign"
+							class="cp math-sign"
+							id="minus" />
+					</p>
+					<p class="cp btn add-btn">
+						<img
+							src="img/icon-cart-btn.svg"
+							alt="Cart Image" />
+						Add to cart
+					</p>
+				</article>
+			</secton>
+		</main>
+		<div
+			class="pop-up"
+			id="pop-up">
+			<div class="pop-main">
+				<div class="desktop close-img hov slide cp">
+					<img
+						src="img/icon-close.svg"
+						alt="Close Icon"
+						class="disf" />
+					<img
+						src="img/icon-close-orange.svg"
+						alt="Close Icon"
+						class="disn" />
+				</div>
+				<div class="change prev hov cp">
+					<img
+						src="img/icon-previous.svg"
+						alt="Previous Icon"
+						class="disf" />
+					<img
+						src="img/icon-previous-orange.svg"
+						alt="Previous Icon"
+						class="disn" />
+				</div>
+				<div class="change next hov cp">
+					<img
+						src="img/icon-next.svg"
+						alt="Next Icon"
+						class="disf" />
+					<img
+						src="img/icon-next-orange.svg"
+						alt="Next Icon"
+						class="disn" />
+				</div>
+				<div class="slider1">
+					<div class="slides1">
+						<!-- radio buttons start -->
+						<input
+							type="radio"
+							class="radio1"
+							name="radio"
+							id="radio5" />
+						<input
+							type="radio"
+							class="radio1"
+							name="radio"
+							id="radio6" />
+						<input
+							type="radio"
+							class="radio1"
+							name="radio"
+							id="radio7" />
+						<input
+							type="radio"
+							class="radio1"
+							name="radio"
+							id="radio8" />
+						<div class="slide1 first1">
+							<img
+								src="img/image-product-1.jpg"
+								alt="" />
+						</div>
+						<div class="slide1">
+							<img
+								src="img/image-product-2.jpg"
+								alt="" />
+						</div>
+						<div class="slide1">
+							<img
+								src="img/image-product-3.jpg"
+								alt="" />
+						</div>
+						<div class="slide1">
+							<img
+								src="img/image-product-4.jpg"
+								alt="" />
+						</div>
+					</div>
+					<div class="navigation-manual desktop">
+						<label
+							for="radio5"
+							class="manual-btn1 cp">
+							<img
+								src="img/image-product-1-thumbnail.jpg"
+								alt="" />
+							<p></p>
+						</label>
+						<label
+							for="radio6"
+							class="manual-btn1 cp">
+							<img
+								src="img/image-product-2-thumbnail.jpg"
+								alt="" />
+							<p></p>
+						</label>
+						<label
+							for="radio7"
+							class="manual-btn1 cp">
+							<img
+								src="img/image-product-3-thumbnail.jpg"
+								alt="" />
+							<p></p>
+						</label>
+						<label
+							for="radio8"
+							class="manual-btn1 cp">
+							<img
+								src="img/image-product-4-thumbnail.jpg"
+								alt="" />
+							<p></p>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
